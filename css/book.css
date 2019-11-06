@@ -1,0 +1,84 @@
+.thai-book {
+    background: #cccccc;
+    padding: 25px;
+}
+
+.thai-box-vehicle {
+    width: 100%;
+    padding: 38px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thai-seat {
+    width: 100px;
+    height: 50px;
+    border: 1px solid #000000;
+    position: relative;
+    margin: 10px;
+}
+
+.child-symbol.booked, .thai-seat.booked {
+    background: #b5b5b5;
+}
+
+.child-symbol.booking, .thai-seat.booking {
+    background: #ff6d68;
+}
+
+.child-symbol.empty {
+    background: #ffffff;
+}
+
+.thai-seat::after {
+    position: absolute;
+    content: "";
+    height: 30px;
+    border-right: 1px solid #000000;
+    top: 10px;
+    left: 70px;
+}
+
+.thai-symbol {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.thai-symbol > div {
+    margin: 10px;
+    display: flex;
+}
+
+.child-symbol {
+    width: 60px;
+    height: 30px;
+    border: solid 1px #000000;
+}
+
+.require {
+    position: relative;
+}
+
+.require::after {
+    position: absolute;
+    content: '*';
+    color: red;
+    top: -5px;
+    right: -10px;
+}
+
+.thai-modal .modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+
+.thai-modal button {
+    border-radius: 0;
+}

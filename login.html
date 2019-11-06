@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vé Xé</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div id="logreg-forms">
+                    <form action="./dashboard.html" class="form-signin form-horizontal">
+                        <h1 class="h3 mb-3 font-weight-normal" style="text-align: center">Đăng nhập</h1>
+                        <div class="form-group">
+                            <label class="label-control thai-label" for="inputEmail">Tài khoản Email</label>
+                            <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label-control thai-label" for="inputPassword">Mật khẩu</label>
+                            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                        </div>
+
+                        <a href="#" id="forgot_pswd">Quên mật khẩu?</a>
+
+                        <div class="form-group">
+                            <button class="btn btn-thai btn-block" type="submit">Đăng nhập</button>
+                        </div>
+
+                        <div class="form-inline">
+                            <div style="width: 50%;" class="text-left">
+                                <button style="width: 95%;" class="btn btn-primary" type="button">Facebook</button>
+                            </div>
+                            <div style="width: 50%;" class="text-right">
+                                <button style="width: 95%;" class="btn btn-danger" type="button">Google+</button>
+                            </div>
+                        </div>
+                        <!-- <p>Don't have an account!</p>  -->
+                        <div class="form-inline mt-5 text-center">
+                            <span style="width: 100%;">Chưa có tài khoản <a href="./register.html"><b>Đăng kí ngay?</b></a></span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

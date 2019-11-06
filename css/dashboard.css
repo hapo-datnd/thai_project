@@ -1,0 +1,39 @@
+body {
+    background: url("../images/background.jpg");
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li {
+    margin: 20px;
+}
+
+li a {
+    color: #ffffff;
+}
+
+li a:hover {
+    color: #ffffff;
+}
+
+.thai-search {
+    margin-top: 200px;
+}
+
+.thai-search label {
+    color: #ffffff;
+    font-size: 32px;
+}
+
+.thai-input-search {
+    width: 25%;
+}
+
+.thai-input-search input, button {
+    height: 70px;
+    border-radius: 0;
+    font-size: 24px;
+}

@@ -1,0 +1,28 @@
+.navbar-nav {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+li {
+    margin: 20px;
+}
+
+li a {
+    color: #000000;
+}
+
+li a:hover {
+    color: #000000;
+}
+
+.thai-search {
+    padding: 25px;
+    background: #ffcc00;
+}
+
+.thai-info {
+    background: blue;
+    padding: 15px;
+    color: #ffffff;
+}
+

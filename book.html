@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Vé Xé</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/ticket.css">
+    <link rel="stylesheet" href="css/book.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div style="width: 60%; margin: auto;">
+            <div class="text-right">
+                <ul class="navbar-nav mr-auto">
+                    <li>
+                        <a href="./register.html">Đăng ký</a>
+                    </li>
+                    <li>
+                        <a href="./login.html">Đăng nhập</a>
+                    </li>
+                    <li>
+                        <a href="">Quản lý vé</a>
+                    </li>
+                    <li>
+                        <a href="">Tuyến xe</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="thai-info col-md-12">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    Chuyến xe từ Hà Nội tới Hải Phòng.
+                </div>
+            </div>
+        </div>
+        <div class="thai-search col-md-12">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="form-horizontal">
+                        <div class="form-row">
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Nhập nơi đi">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Nhập nơi đến">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="text" class="form-control" placeholder="Nhập thời gian">
+                            </div>
+                            <div class="col-md-3">
+                                <input type="button" class="form-control" value="Tìm vé xe" style="background: blue; color: white;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-10 offset-md-1">
+                    <div class="text-right mt-2">
+                        Tổng đài hỗ trợ: 19001008
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-md-12 thai-book">
+                            <div class="row">
+                                <div class="col-md-7">
+                                    <div class="thai-box-vehicle">
+                                        <div class="thai-seat booked">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                        <div class="thai-seat booked">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                        <div class="thai-seat booked">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                        <div class="thai-seat booking">
+                                        </div>
+                                        <div class="thai-seat booking">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                        <div class="thai-seat">
+                                        </div>
+                                    </div>
+                                    <div class="thai-symbol">
+                                        <div>
+                                            <div class="child-symbol empty">
+
+                                            </div>
+                                            <span class="ml-3">Ghế trống</span>
+                                        </div>
+
+                                        <div>
+                                            <div class="child-symbol booking">
+
+                                            </div>
+                                            <span class="ml-3">Ghế đang chọn</span>
+                                        </div>
+
+                                        <div>
+                                            <div class="child-symbol booked">
+
+                                            </div>
+                                            <span class="ml-3">Ghế đã chọn</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <form class="form-horizontal" action="">
+                                        <div class="form-group">
+                                            <b>Hà nội - Quảng Ninh</b> <span class="ml-3">Ngày 09/11/2019</span>
+                                        </div>
+                                        <div class="form-row">
+                                            <label class="col-md-5">Ghế đã chọn</label>
+                                            <div class="col-md-7">
+                                                <span class="text-danger"><b>A2</b></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <label class="col-md-5">Tổng Tiền</label>
+                                            <div class="col-md-7">
+                                                <span class="text-danger"><b>250.000đ</b></span>
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-2">
+                                            <label class="col-md-5"><span class="require">Số điện thoại</span></label>
+                                            <div class="col-md-7">
+                                                <input class="form-control" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-2">
+                                            <label class="col-md-5"><span class="require">Họ tên</span></label>
+                                            <div class="col-md-7">
+                                                <input class="form-control" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-2">
+                                            <label class="col-md-5"><span class="require">Email</span></label>
+                                            <div class="col-md-7">
+                                                <input class="form-control" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="form-row mt-3">
+                                            <div class="col-md-7">
+                                                <button type="button" class="btn btn-danger form-control" data-toggle="modal" data-target="#myModal">Đặt vé</button>
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal thai-modal" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <!-- Modal body -->
+            <div class="modal-body">
+                <h4 class="modal-title text-center">Đặt vé thành công</h4>
+                <div class="text-center mt-5">
+                    <a href="./dashboard.html"><button type="button" class="btn btn-primary">Quay về trang chủ</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
